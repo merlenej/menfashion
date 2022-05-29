@@ -1,0 +1,600 @@
+.prdt-img{
+	position: relative;
+   width: 150px;
+   height: 150px;
+   border-radius: 7px;
+  
+}
+.products{
+	top: 15px;
+	position: relative;
+	display: flex;
+}
+.pro_img{
+	border: 1px solid rgb(65, 121, 206);
+	width: 130px;
+	height: 190px;
+	border-radius: 8px;
+	align-items: center;
+}
+
+#cart-header{
+	position: relative;
+	top: 20px;
+	padding: 0;
+	background: rgb(207, 185, 155);
+	
+}
+.products-image{
+	width: 150px;
+	height: 150px;
+	border-radius: 7px;
+}
+main{
+	width: 1000px;
+	margin: 0 auto;
+
+	
+}
+.arrowpointer{
+	width: 50px;
+	height: 50px;
+}
+.container-slider{
+	
+	width: 900px;
+	display: flex;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+section{
+	width:100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+
+
+}
+
+section::-webkit-scrollbar{
+	background: blueviolet ;
+	height: 5px;
+	width: 2px;
+	border:1px solid rgb(238, 104, 55) ;
+}
+section::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 5px, yellow;
+	
+}
+section::-webkit-scrollbar-thumb{
+	outline: 1px solid yellow;
+	background-color: rgb(238, 104, 55);
+}
+
+section .thumbnail{
+	
+	margin: 5px;
+	border: 1px solid blue;
+	position: relative;
+	cursor: pointer;
+	transition: 1s linear;
+	border-radius: 7px;
+	object-fit: cover;
+
+}
+
+section .thumbnail:hover{
+	transform: scale(1.05);
+}
+
+.products-details{
+	border: 0.5px solid blue;
+	justify-content: center;
+	align-items: center;
+	border-radius: 7px;
+	width: 150px;
+
+}
+.products-detail{
+	border: 0.5px solid blue;
+	justify-content: center;
+	align-items: center;
+	border-radius: 7px;
+	width: 150px;
+
+}
+.products-details h3{
+	color: burlywood;
+	text-align: center;
+	position: relative;
+}
+
+.products-details p{
+	color: rgb(27, 49, 109);
+	text-align: center;
+	position: relative;
+	border: 1px solid blue;
+	border-radius: 30px;
+}
+
+.products-details h5{
+	color: rgb(27, 49, 109);
+	text-align: center;
+	position: relative;
+	font-size: 20px;
+	background-color: burlywood;
+}
+
+.products-details .cart-button{
+	color: rgb(27, 49, 109);
+	left: 25px;
+	position: relative;
+	font-size: 20px;
+	background-color: rgb(214, 201, 82);
+	border-radius: 7px;
+	text-decoration: none;
+	border: 1px solid orange;
+	top: -7px;
+}
+
+.products-details a{
+	color: rgb(27, 49, 109);
+	left: 25px;
+	position: relative;
+	font-size: 20px;
+	background-color: rgb(214, 201, 82);
+	border-radius: 7px;
+	text-decoration: none;
+	border: 1px solid orange;
+	top: -7px;
+}
+
+ul{
+	position: relative;
+	display: flex;
+	margin: 5px;
+	align-items: center;
+	justify-content: center;
+}
+ol{
+	text-align: center;
+	border: 1px solid blue;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	
+}
+a{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.header{
+	align-items: center;
+	justify-content: center;
+	font-family: sans-serif;
+    position: relative;
+	left: 400px;
+	color: blue;
+}
+
+.colunm{
+display: inline-flex;
+position: relative;
+margin-right: 420px;
+margin-top: 40px;
+left: 80px;
+font-size: 20px;
+font-family: serif;
+
+}
+.cart-img{
+	position: relative;
+	margin-top:-14px;
+	width: 80px;
+	height: 80px;
+	border-radius: 7px;
+	border: 1px solid rgb(65, 121, 206);
+}
+.cart-btn{
+	position: relative;
+	background: rgb(212, 148, 28);
+	border: 1px solid blue;
+	border-radius: 8px;
+	color:blue ;
+	padding: 2px;
+	font-size: 20px;
+	top: -13px;
+	left: 2px;
+	width: 130px;
+
+	
+}
+.cart-btn:hover{
+	transform: scale(2px);
+	transition: .1s all linear;	
+	background: rgb(148, 122, 122);;
+	color: white;
+	font-style: bold;
+}
+.item-price{
+	position: relative;
+	top:-42px;
+	left: -30px;
+}
+.minus, .quantity, .plus{
+	position: relative;
+	top:-42px;
+	left: -30px;
+	font-size: 30px;
+
+	margin: 2px;
+	border-radius: 5px;
+     cursor: pointer;
+	color: rgb(128, 117, 75);
+	font-style: bold;
+}
+.minus{
+	font-size: 30px;
+	top: -43px;
+
+}
+.quantity{
+	border: none;
+	
+}
+.cart-subtotal{
+	background:rgb(148, 122, 122);
+	height: 50px;
+	
+}
+.description{
+	position: relative;
+	border: 1px solid blue;
+	border-radius: 5px;
+	width: 130px;
+	margin: 5px;
+	align-items: center;
+	top: -9px;
+	right: 5px;
+
+
+}
+
+.cart-subtotal{
+	position: relative;
+	top: 20px;
+	color: rgb(255, 255, 255);
+	padding-top: 20px;
+	font-size: 20px;
+ padding-left: 500px;
+}
+.removeItem{
+	position: relative;
+	width: 55px;
+	height: 20px;
+	background: red;
+	color: white;
+	top: 70px;
+	right: 70px;
+	border-radius: 5px;
+	border: none;
+	
+
+}
+.large{
+	width:900px;
+	height: 400px;
+	background-color: transparent;
+	border-radius: 20px 20px 0px 0px;
+	border: 2px dotted blue;
+	
+	
+}
+.small{
+	width:650px;
+	height: 400px;
+	background-color:transparent;
+	margin-left: 10px;
+	border-radius: 20px 20px 0px 0px;
+	border: 3px dotted rgb(178, 147, 218);
+}
+#sub-info{
+	position: relative;
+	display: flex;
+	margin-top: 10px;
+	
+}
+#sub-info:hover{
+	cursor: pointer;
+	background-color: rgb(235, 212, 177);
+	
+	
+}
+.container-bx{
+	position: relative;
+	display: flex;
+	margin: 10px;	
+}
+.example1, .example2{
+	position: relative;
+	display: flex;
+	margin: 5px;
+
+
+}
+.box{
+	position: relative;
+	border: 1px solid blue;
+	margin-top: 5px;
+	width: 140px;
+	height: 300px;
+	margin-left: 30px;
+	background-color: rgb(163, 152, 138);
+	border-radius: 8px;
+
+}
+.box2{
+	position: relative;
+	top:40px;
+	left: -100px;
+	width: 140px;
+	height: 300px;
+	background-color: rgb(204, 157, 95);
+	border-radius: 8px;
+}
+.box3{
+	position: relative;
+	top:70px;
+	left: -200px;
+	width: 140px;
+	height: 300px;
+	background-color: rgb(46, 84, 141);
+	border-radius: 8px;
+	transition: 5s all linear;
+}
+ .box3:hover{
+	top:70px;
+	left: -400px;
+   
+	
+}
+.example3{
+	width: 550px;
+	height: 350px;
+	border-radius: 10px;
+	border: 2px solid orange;
+	margin-top: 15px;
+	margin-left: 40px;
+}
+.circ{
+  margin-top: 70px;
+ left: 15px;
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	border: 1px solid blue;
+	display: inline-flex;
+	position: relative;
+	background-color: rgb(210, 210, 223);
+}
+.circ1{
+	position: relative;
+	left: 50px;
+}
+.circ2{
+	position: relative;
+	left: -20px;
+	background-color: rgb(167, 114, 216);
+	margin-left: 8px;
+}
+.circ3{
+	position: relative;
+	left: -70px;
+	background-color: rgb(58, 127, 155);
+}
+.circ-img{
+	width: 165px;
+	height: 165px;
+	border-radius: 50%;
+	opacity: 50%;
+}
+.cards{
+	position: relative;
+	margin-top: 15px;
+	background-color: rgb(128, 112, 167);
+}
+.cards:hover{
+	cursor: pointer;
+	background-color: rgb(252, 237, 157);
+}
+.card{
+	left: 10px;
+	width: 270px;
+	height: 270px;
+	border-radius: 15px;
+	display: inline-flex;
+	position: relative;
+	margin: 10px;
+	padding: 5px;
+}
+.front{
+	width: 270px;
+	height: 270px;
+	border-radius: 15px;
+	background-color: blue;
+	backface-visibility: hidden;
+	transform: rotateY(0deg) perspective(600px);
+	position: absolute;
+	transition: 5s all linear;
+	
+
+	
+}
+.back{
+	width: 270px;
+	height: 270px;
+	position: absolute;
+	border-radius: 15px;
+	background-color: rgb(218, 206, 39);
+	backface-visibility: hidden;
+	transform: rotateY(180deg) perspective(600px);
+	transition: 5s all linear;
+
+
+
+}
+.card:hover >.back{
+	transform: rotateY(0deg);
+	
+}
+.card:hover >.front{
+	transform: rotateY(180deg);
+	
+}
+#subcontainer{
+	position: relative;
+	margin-top: 15px;
+	display: inline-flex;
+}
+.firstcirc{
+	width: 400px;
+	height: 500px;
+	border: 3px dotted blue;
+	border-radius: 10px 90px 90px 10px;
+}
+.secondcirc{
+	width: 720px;
+	height: 500px;
+	border: 3px dotted blue;
+	border-radius: 90px;
+	background-color: white;
+	margin-left: 15px;
+}
+.thirdcirc{
+	width: 400px;
+	height: 500px;
+	border: 3px dotted blue;
+	border-radius: 90px 10px 10px 90px;
+	margin-left: 15px;
+}
+.boxx1{
+	position: absolute;
+	width: 250px;
+	height: 400px;
+	background-color: rgb(60, 75, 70);
+	border-radius: 10px;
+	top: 90px;
+	left: 110px;
+}
+ .boxx4{
+	position: absolute;
+	width: 250px;
+	height: 400px;
+	background-color: rgb(60, 75, 70);
+	border-radius: 10px;
+	top: 90px;
+	left: 110px;
+}
+.boxx , .boxx3{
+	margin-top: 40px;
+	margin-left: 50px;
+	position: relative;
+	width: 250px;
+	height: 400px;
+	background-color: rgb(109, 86, 131);
+	border-radius: 10px;
+}
+.shop-items{
+	position: relative;
+	display: inline-flex;
+	margin-top: -50px;
+	margin-left: 10px;
+}
+
+.shop-item-image{
+ width: 100px;
+ height: 100px;
+}
+.shop-item-details{
+	position: relative;
+	margin-top: 110px;
+	right:80px;
+}
+.shop-item-title{
+	position: relative;
+	margin-bottom: 10px;
+	left: 30px;
+	
+}
+
+.column{
+	position: relative;
+	display: inline-flex;
+	margin: 30px;
+	font-size: 20px;
+
+}
+.cart-header{
+	position: relative;
+	margin-top: 15px;
+	background-color: rgb(150, 103, 103);
+	border-radius: 5px;
+	left: -7px;
+
+} 
+.cart-item-image{
+	position: relative;
+	width: 70px;
+	height: 70px;
+	border-radius: 10px;
+	left: -19px;
+	top: -25px;
+}
+.cart-item-price{
+	position: relative;
+	top: -57px;
+	left: -24px;
+}
+.cart-quantity-input{
+	width: 30px;
+	height: 25px;
+	position: relative;
+	border-radius: 5px;
+	top: -60px;
+	left: -25px;
+}
+.btn-primary{
+position: relative;
+top: -60px;
+}
+.cart-item{
+	position: relative;
+	padding: auto;
+}
+.cart-container{
+	position: relative;
+	float: right;
+}
+.cart-total-price{
+	position: relative;
+	background-color: rgb(119, 75, 75);
+	right: 5px;
+	padding: 2px;
+	border-radius: 5px;
+	top: -50px;
+}
+ h5{
+	position: relative;
+     font-size: 20px;
+	color: white;
+	left: 195px;
+
+}
